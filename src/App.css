@@ -1,0 +1,84 @@
+/* Estilo general para la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+}
+
+/* Estilo para el nombre de la banda */
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  font-size: 3em;
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+}
+
+h1:hover {
+  color: #aaa;
+}
+
+/* Estilo para el menú de navegación */
+.navbar {
+  background-color: rgb(179, 15, 15);
+  margin-right: 35vw; 
+   
+  
+}
+
+.nav-link {
+  color: rgb(14, 9, 94);
+  font-size: 1.2em;
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+  color: rgb(37, 201, 105);
+  transform: scale(1.1);
+}
+
+/* Estilo para las diferentes secciones */
+.container {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+/* Estilo para los botones */
+.btn {
+  background-color: #222;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Estilo para las imágenes */
+img {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+.nombre {
+ text-align: center;
+ font-size: 6rem;
+ }
+
+
+ .p {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(129, 15, 6);
+ }
+.todo {
+  text-align: center;
+  background-color: rgb(129, 15, 6);
+}
+
+
