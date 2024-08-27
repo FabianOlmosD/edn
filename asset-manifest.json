@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/edn/static/css/main.d2e2c879.css",
+    "main.js": "/edn/static/js/main.ed1e8cf4.js",
+    "static/media/haypulso.jpg": "/edn/static/media/haypulso.52ec8e762fbcefd50eb9.jpg",
+    "static/media/BowlbyOne-Regular.ttf": "/edn/static/media/BowlbyOne-Regular.1a76a38c868e10ecca9b.ttf",
+    "static/media/pequeñas.jpg": "/edn/static/media/pequeñas.d3ed7e2f141a14a7134b.jpg",
+    "index.html": "/edn/index.html",
+    "main.d2e2c879.css.map": "/edn/static/css/main.d2e2c879.css.map",
+    "main.ed1e8cf4.js.map": "/edn/static/js/main.ed1e8cf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2e2c879.css",
+    "static/js/main.ed1e8cf4.js"
+  ]
+}
