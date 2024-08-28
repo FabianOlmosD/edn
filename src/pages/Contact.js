@@ -6,6 +6,8 @@ import { useState } from 'react';
 import { db } from '../Conf/firebase';
 import { addDoc, collection } from 'firebase/firestore'; // Importa las funciones necesarias de Firebase
 import '../index.css';
+import React from 'react';
+
 
 function Contact() {
   const [nombre, setNombre] = useState('');
