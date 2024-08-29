@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.6a922100.chunk.css",
+    "main.css": "./static/css/main.8f9b47cd.chunk.css",
     "main.js": "./static/js/main.cbdc1249.chunk.js",
     "main.js.map": "./static/js/main.cbdc1249.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
@@ -9,10 +9,10 @@
     "static/js/2.530a4d31.chunk.js": "./static/js/2.530a4d31.chunk.js",
     "static/js/2.530a4d31.chunk.js.map": "./static/js/2.530a4d31.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.bf4327877270c1a02a11c8bcf4b46e0f.js": "./precache-manifest.bf4327877270c1a02a11c8bcf4b46e0f.js",
+    "precache-manifest.0fee6d8ad697ca8e6aaf2f59de8f37a9.js": "./precache-manifest.0fee6d8ad697ca8e6aaf2f59de8f37a9.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "./static/css/2.b71989ea.chunk.css.map",
-    "static/css/main.6a922100.chunk.css.map": "./static/css/main.6a922100.chunk.css.map",
+    "static/css/main.8f9b47cd.chunk.css.map": "./static/css/main.8f9b47cd.chunk.css.map",
     "static/media/index.css": "./static/media/BowlbyOne-Regular.bf622cd1.ttf",
     "static/media/haypulso.jpg": "./static/media/haypulso.2d0a396d.jpg",
     "static/media/pequeñas.jpg": "./static/media/pequeñas.eafc5972.jpg"
