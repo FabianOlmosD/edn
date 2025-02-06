@@ -7,7 +7,7 @@ const Dates = () => {
       <div className="cartel">
         <h1 className="lugar">CITYBAR MARTÍNEZ</h1>
         <p className="direccion">Av. Fondo de la Legua 2550, Martínez</p>
-        <h2 className="fecha">17 DE NOVIEMBRE 2024</h2>
+        <h2 className="fecha">08 DE NOVIEMBRE 2025</h2>
       </div>
     </div>
   );
