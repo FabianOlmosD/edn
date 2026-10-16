@@ -1,39 +1,15 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
-
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
-importScripts(
-  "./precache-manifest.5ae63b3fd3a29ffd994e3b042f41ec55.js"
-);
-
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
-
-workbox.core.clientsClaim();
-
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("./index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+// El sitio anterior (Create React App) publicaba un service worker.
+// Este archivo lo reemplaza y se desactiva solo, para que nadie vea
+// una versión vieja guardada en caché.
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', (e) => {
+  e.waitUntil(
+    (async () => {
+      const claves = await caches.keys();
+      await Promise.all(claves.map((k) => caches.delete(k)));
+      await self.registration.unregister();
+      const clientes = await self.clients.matchAll({ type: 'window' });
+      clientes.forEach((c) => c.navigate(c.url));
+    })()
+  );
 });
